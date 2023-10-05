@@ -39,7 +39,7 @@ provider "kubernetes" {
   token                  = data.aws_eks_cluster_auth.cluster.token
 
 }
-*/
+
 
 provider "aws" {
   region = "us-west-2"
@@ -49,3 +49,4 @@ resource "random_string" "suffix" {
   length  = 5
   special = false
 }
+*/
