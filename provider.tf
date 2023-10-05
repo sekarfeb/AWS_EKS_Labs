@@ -28,8 +28,8 @@ backend "remote" {
 
 provider "aws" {
   region  = "us-west-2"
-  access_key = "AKIA5PFVDHO6SYW7MXKX"
-  secret_key = "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"
+  access_key = "AKIA5PFVDHO6S"
+  secret_key = "4A+oocAARt2ynr8W8V4RgnCSyVlH6Ow"
 }
 
 /*
