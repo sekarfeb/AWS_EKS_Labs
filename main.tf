@@ -1,5 +1,10 @@
 ###### root/main.tf
 
+resource "random_string" "suffix" {
+  length  = 5
+  special = false
+}
+
 module "eks" {
   source                  = "./modules/eks"
   aws_public_subnet       = module.vpc.aws_public_subnet
