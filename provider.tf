@@ -26,6 +26,12 @@ backend "remote" {
 	}
 }
 
+provider "aws" {
+  region  = "us-west-2"
+  access_key = "AKIA5PFVDHO6SYW7MXKX"
+  secret_key = "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"
+}
+
 /*
 data "aws_eks_cluster" "cluster" {
   name = module.eks.cluster_id
